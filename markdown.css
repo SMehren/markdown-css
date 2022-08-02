@@ -2,7 +2,7 @@ a,
 a:visited,
 a:hover,
 a:active {
-  color: blue;
+  color: #1068bf;
 }
 
 /* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
@@ -348,7 +348,10 @@ code {
 
 /* for inline code */
 :not(pre):not(.hljs) > code {
-  color: #c9ae75; /* Change the old color so it seems less like an error */
+  padding: 2px 4px;
+  color: #1f1f1f;
+  background-color: #f0f0f0;
+  border-radius: 4px;
   font-size: inherit;
 }
 
